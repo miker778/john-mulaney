@@ -4,12 +4,152 @@ Gray #323639
 */
 /* Fonts:
 
-Poiret One (Revisar donde se encuentra )
+Poiret One
+https://fonts.google.com/specimen/Poiret+One
 */
 
-.site {
-  background-color: black;
+body {
+  background-color: #090909;
   font-family: Poiret One;
   color: white;
 
+}
+
+/* Dropdown Button para boton de menú */
+.dropbtn {
+  background-color: #090909;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  display: flex;
+  justify-content: right;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #323639;
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* ----------------------------- */
+/* menú de https://www.youtube.com/watch?v=dIyVTjJAkLw&list=PLkwxH9e_vrALSdvZuEh6gqQdmDoDIoqz4&ab_channel=codeSTACKr*/
+.gg-menu {
+  transform: scale(var(--ggs,1))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: currentColor
+}
+.gg-menu::after,
+.gg-menu::before {
+  content: "";
+  position: absolute;
+  top: -6px
+}
+.gg-menu::after {
+  top: 6px
+}
+/* ----------------------------- */
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 60px 850px;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #1B1818;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+
+/* ----------------------------- */
+
+#head{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+#john-1{
+  align-items: center;
+  height: 70%;
+  width:  70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+/* Efecto parallax ? */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#noticias{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+
+#noticia1{
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  height: 30%;
+  width:  30%;
+  margin-left: 100px;
+}
+
+#noticia2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 30%;
+  width:  30%;
+  margin-left: 100px;
+}
+
+#noticia3{
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  height: 30%;
+  width:  30%;
+  margin-left: 100px;
+}
+
+#foot {
+  height: 100px;
+  width:  auto;
+  background-color: #323639;
+  font-size: 30px;
+  text-align: center;
+  
+  
+  
 }
