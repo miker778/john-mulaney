@@ -7,7 +7,9 @@ Gray #323639
 Poiret One (Revisar donde se encuentra )
 */
 
-#site {
-  background-color: #090909;
+.site {
+  background-color: black;
+  font-family: Poiret One;
+  color: white;
 
 }
