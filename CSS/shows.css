@@ -1,5 +1,17 @@
 @import url('https://fonts.google.com/specimen/Poiret+One');
 
+#head{
+  text-align: center;
+  font-size: 40px;
+  position: sticky;
+  top: 0;
+  background-color:#090909 ;
+  width: auto;
+  height: 100px;
+    
+  }
+}
+
 /* Dropdown Button para boton de menú */
 .dropbtn {
   background-color: #090909;
@@ -79,15 +91,7 @@
 
 /* ----------------------------- */
 
-#head{
-  text-align: center;
-  position: sticky;
-  top: 0;
-  background-color:#090909 ;
-  width: auto;
-  height: 100px;
-  
-}
+
 
 body {
   background-color: #090909;
@@ -111,3 +115,16 @@ footer {
   margin-top: 10px;
   margin-left: 1250px;
 } 
+
+table {
+margin: auto;
+text-align:center;
+font-size: 30px;
+width: auto;
+height: auto;
+
+}
+table td {
+  padding-right: 100px;
+  padding-top: 25px;
+}

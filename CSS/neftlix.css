@@ -111,3 +111,22 @@ footer {
   margin-top: 10px;
   margin-left: 1250px;
 } 
+
+#netflix {
+  align-items: center;
+  height: 40%;
+  width:  40%;
+  margin: auto;
+  display: flex;
+}
+table{
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: auto;
+  text-align:center;
+
+}
+table td {
+  padding: 15px ;
+}
