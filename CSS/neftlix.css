@@ -1,0 +1,113 @@
+@import url('https://fonts.google.com/specimen/Poiret+One');
+
+/* Dropdown Button para boton de menú */
+.dropbtn {
+  background-color: #090909;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  display: flex;
+  justify-content: right;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: flex;
+  top: 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #323639;
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* ----------------------------- */
+/* menú de https://www.youtube.com/watch?v=dIyVTjJAkLw&list=PLkwxH9e_vrALSdvZuEh6gqQdmDoDIoqz4&ab_channel=codeSTACKr*/
+.gg-menu {
+  transform: scale(var(--ggs,1))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: currentColor;
+  top: 10px;
+  
+  
+}
+.gg-menu::after,
+.gg-menu::before {
+  content: "";
+  position: absolute;
+  top: -6px
+}
+.gg-menu::after {
+  top: 6px
+}
+/* ----------------------------- */
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 40px 100px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #090909;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: black;}
+
+/* ----------------------------- */
+
+#head{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color:#090909 ;
+  width: auto;
+  height: 100px;
+  
+}
+
+body {
+  background-color: #090909;
+  font-family: Poiret One;
+  color: white;
+
+}
+
+footer {
+  height: 60px;
+  width:  auto;
+  background-color: #323639;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#social-media {
+  position: absolute;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 1250px;
+} 

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../PARCIAL 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JOHN-M"
+	}
+}

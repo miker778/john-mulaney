@@ -3,77 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
   <title>JOHN MULANEY HOME</title>
   <!--Esta página es sobre John Mulaney.-->
-  <link href="style.css" rel="stylesheet"  type="text/css" >
-  <div class="dropdown">
-    <button class="dropbtn">   <i class="gg-menu"></i> MENÚ  </button>
-    <div class="dropdown-content">
-      <a href="#">HOME</a>
-      <a href="#">ACERCA DE</a>
-      <a href="#">SHOWS</a>
-      <a href="#">NETFLIX</a>
-      <a href="#">GALERÍA</a>
-      <a href="#">CONTACTO</a>
-    </div>
-  </div>
+  <link href="/CSS/index.css" rel="stylesheet"  type="text/css"  >
+
   <div id="head">
+    <div class="dropdown">
+      <button class="dropbtn">   <i class="gg-menu"></i> MENÚ  </button>
+      <div class="dropdown-content">
+        <a href="#">HOME</a>
+        <a href="about.html">ACERCA DE</a>
+        <a href="shows.html">SHOWS</a>
+        <a href="netflix.html">NETFLIX</a>
+        <a href="galeria.html">GALERÍA</a>
+        <a href="contacto-html">CONTACTO</a>
+      </div>
+    </div>
 <h1>JOHN MULANEY</h1>
   </div>
 </head>
 
 
-<div id="body">
-
 <body>
 <!-- Aqui va la imagen de John-->
   <div>
-<img src="/IMG/no-comp/John-Mulaney.png" alt="John Mulaney" id="john-1" >
+<img src="/IMG/John-Mulaney.png" alt="John Mulaney" id="john-1" >
 </div>
 <br>
-<!-- Empieza la seccion de "noticias relevantes"-->
-<div id="noticias">
-<h2> NOVEDADES</h2>
+<!-- Empieza la seccion de "noticias relevantes" en una tabla-->
+<div id="novedades">
+<h2> NOVEDADES</h2></div>
 
-<div id="noticia1">
-  <img src="/IMG/no-comp/kig-gorgeous.jpg" >
-<h4>
-  John Mulaney: Kid Gorgeous at Radio City
-  NETFLIX SHOW
-</h4>
-</div>
+<table style="margin: auto; text-align: center;font-size: 18px; color: white;" >
+  <tr>
+    <td>
+      <p><img src="/IMG/kig-gorgeous.jpg" alt="John Mulaney en su comedia de netflix Kid Gorgeous at Radio City" id="img1" ></p>
+    </td>
+    <td>
+      <img src="/IMG/snl.jpg" id="img2" alt="John Mulaney en Saturday Night Live" >
+    </td>
+    <td>
+      <img src="/IMG/john-smash.png" alt="¿John Mulaney en el videojuego Super Smash Bros?" id="img3">
+    </td>
+  </tr>
+  <tr>
+    <td>John Mulaney: Kid Gorgeous at Radio City
+      NETFLIX SHOW</td>
+    <td>John Mulaney Show en Saturday Night Live!</td>
+    <td>John Mulaney en SUPER SMASH BROS???</td>
+  </tr>
 
-<div id="noticia2">
-  <img src="/IMG/no-comp/snl.jpg" >
-  <h4>
-    John Mulaney Show en Saturday Night Live!
-  </h4>
-</div>
-
-<div id="noticia3">
-  <img src="/IMG/no-comp/john-smash.png" >
-  <h4>
-    John Mulaney en SUPER SMASH BROS???
-  </h4>
-</div>
-
-
-</div> <!-- Cierra div de noticias-->
-
-
+</table>
 
 </body>
 
-</div>  <!-- Cierra div body-->
 
-
-<div id="foot">
 
   <footer>
+    <div id="social-media">
+
+    <a href="https://www.facebook.com/JohnMulaneyOfficial/" target=“_blank”><img src="/IMG/001-facebook.png" alt="Facebook logo" height="30"
+    width="30" ></a>
+
+    <a href="https://twitter.com/mulaney" target=“_blank”> 
+    <img src="/IMG/013-twitter.png" alt="Twitter logo" height="30" width="30"></a>
+
+    <a href="https://www.instagram.com/johnmulaney/" target=“_blank”>
+    <img src="/IMG/011-instagram.png" alt="Instagram logo" height="30" width="30"></a>
+
+    <a href="https://www.youtube.com/watch?v=Cs1eiwrIUf8" target=“_blank”>
+    <img src="/IMG/008-youtube.png" alt="Youtube logo" height="30" width="30"></a>
+
+  </div>
+
 <p>© 2020 John Mulaney 
-  <br>
-  Site by Miguel Ramírez & Santiago Canizales</p>
+  
+<br>
+  Sitio hecho por Miguel Ramírez & Santiago Canizales
+
+  </p>
+
+  <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+
+  <!--Iconos ahora-->
+  
+
+  
+
   </footer>
 
-</div> <!-- Cierra div foot-->
 </html>

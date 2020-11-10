@@ -1,0 +1,13 @@
+@import url('https://fonts.google.com/specimen/Poiret+One');
+
+Body {
+  background-color: #090909;
+  font-family: Poiret One;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
+}
+h1{
+  color: red;
+}
