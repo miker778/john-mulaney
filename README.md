@@ -3,7 +3,7 @@
 Esta página esta hecha como un proyecto escolar, no tenemos el derecho de la información, fotografías ni videos. Es solo una demostración para fines educativos de demostración. || This page is only for demonstration of a educational project only. We do not have the rights of any information, image or video showed in this website.
 
 ## Página visible con Github Pages en:
-# https://github.io/miker778/john-mulaney
+# https://miker778.github.io/john-mulaney/
 
 Cualquier problema o información:
 Any trouble or information:
