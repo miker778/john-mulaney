@@ -1,0 +1,19 @@
+@import url('https://fonts.google.com/specimen/Poiret+One');
+
+
+body {
+  text-align: center;
+  background-color: #090909;
+  font-family: Poiret One;
+  color: white;
+  vertical-align: center;
+margin-top: 250px;
+font-family: Poiret One;
+}
+p {
+  background-color:#323639;
+  width: 100px;
+  margin: auto;
+  color: white;
+  padding: 30px;
+}

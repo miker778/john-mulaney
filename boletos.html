@@ -3,11 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="CSS/boletos.css" rel="stylesheet"  type="text/css"  >
   <title>COMPRA BOLETO</title>
 </head>
 <body>
-  <h1 style="font-size: large; text-align: center;">BOLETO SE COMPRA AQUI</h1>
-  <p style="font-size: large; text-align: center;">(En proceso)</p>
-  <p style="font-size: large; text-align: center;"><a href="index.html">volver a página</a></p>
+  <p style="font-size:20px;">No entres tu informacion personal, el formato ya esta en su totalidad llenado, solo oprime enviar.</p>
+  <div id="checkout">
+  <h1 style="font-size: large; text-align: center;">CHECKOUT</h1>
+  <H2>JOHN MULANEY LIVE</H2>
+  <div class="form">
+    <table>
+      <tr>
+    <label>Correo</label>
+    <input type="text" id="correo" name="correo" value="correo@gmail.com"></tr>
+    
+    <tr><label>Tarjeta de credito</label>
+    <input type="text" id="tarjeta" name="tarjeta" value="1234 5678 9012 3456"></tr>
+   <tr>
+     <td>
+    <label>Expiración</label>
+    <input type="text" id="exp" name="exp" value="MM/YY">
+  </td>
+  <td>
+    <label>Nombre completo</label>
+    <input type="text" id="nombre1" name="nombre1" value="John Doe"></td>
+    <td>
+    <label>Cv code</label>
+    <input type="text" id="cvcode" name="cvcode" value="123">
+  </td>
+  </tr>
+    </table>
+    <p style="font-size: 20px;"><b>Sera cargado a tu cuenta $7.5 USD.</b></p>
+  <a href="IMG/eticket.png" download="eticket">
+  <input type="button" value="Donwload Ticket"></a>
+  <br>
+
+  <p style="font-size: 20px;"><a href="index.html">Regresar a página principal</a></p>
+
+</div>
 </body>
 </html>

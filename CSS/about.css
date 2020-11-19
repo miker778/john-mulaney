@@ -96,9 +96,14 @@ body {
   color: white;
   text-align: center;
   text-justify: newspaper;
+  font-size: 18px;
 
 }
-
+p {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-justify: auto;
+}
 footer {
   height: 60px;
   width:  auto;
@@ -111,6 +116,6 @@ footer {
 #social-media {
   position: absolute;
   display: flex;
-  margin-top: 10px;
-  margin-left: 1250px;
+  margin-top: 15px;
+  margin-left: 1180px;
 } 
